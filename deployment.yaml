@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myapp
+  name: myapps
   labels:
-    app: myapp
+    app: myapps
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: myapp
+      app: myapps
   template:
     metadata:
       labels:
-        app: myapp
+        app: myapps
     spec:
       containers:
-      - name: myapp
+      - name: myapps
         image: nshalini01/dockcompose-app:latest
         ports:
          - containerPort: 80
