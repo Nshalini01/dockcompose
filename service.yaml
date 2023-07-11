@@ -4,7 +4,7 @@ metadata:
   name: myservice
 spec:
   selector:
-    app: myapp
+    app: myapps
   ports:
     - protocol: TCP
       port: 80
