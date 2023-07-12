@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: myservice
+  namespace: aks
 spec:
   selector:
     app: myapps
