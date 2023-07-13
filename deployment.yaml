@@ -19,6 +19,6 @@ spec:
       - name: myapps
         image: aksss.azurecr.io/kube:1.0.0
         ports:
-         - containerPort: 80
-      imagePullsecrets:
-        -name: kube
+        - containerPort: 80
+      imagePullSecrets:
+      - name: kube
