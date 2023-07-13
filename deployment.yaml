@@ -17,6 +17,8 @@ spec:
     spec:
       containers:
       - name: myapps
-        image: nshalini01/dockcompose-app:latest
+        image: aksss.azurecr.io/kube:1.0.0
         ports:
          - containerPort: 80
+      imagePullsecrets:
+        -name: kube
