@@ -20,5 +20,3 @@ spec:
         image: aksss.azurecr.io/kube:1.0.0
         ports:
         - containerPort: 80
-      imagePullSecrets:
-      - name: kube
