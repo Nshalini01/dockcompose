@@ -6,7 +6,6 @@ metadata:
 spec:
   selector:
     app: myapps
-  type : LoadBalancer
   ports:
     - protocol: TCP
       port: 80
